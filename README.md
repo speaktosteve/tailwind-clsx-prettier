@@ -1,37 +1,3 @@
----
-heading: 'Using Tailwind CSS, CLSX and Prettier in a React/Next.js project'
-description: 'How to set up Tailwind CSS, CLSX and Prettier in a React/Next.js project with reference repository'
-date: '2024-10-16'
-tags: ['next.js', 'react', 'tailwind', 'clsx', 'prettier']
-references:
-    [
-        {
-            'type': 'repo',
-            'link': 'https://github.com/speaktosteve/tailwind-clsx-prettier',
-            'title': 'Reference repo',
-        },
-        {
-            'type': 'external',
-            'link': 'https://nextjs.org/docs/getting-started/installation',
-            'title': 'Next.js docs',
-        },
-        {
-            'type': 'external',
-            'link': 'https://www.npmjs.com/package/clsx',
-            'title': 'clsx docs',
-        },
-        {
-            'type': 'external',
-            'link': 'https://github.com/tailwindlabs/prettier-plugin-tailwindcss',
-            'title': 'prettier-plugin-tailwindcss docs',
-        },
-    ]
----
-
-<script context="module">
-  import { base } from "$app/paths";
-</script>
-
 ## Overview
 
 [clsx](https://www.npmjs.com/package/clsx), the lightweight library generally used to simplify the use of conditional CSS class names in libraries such as React, is something I am pretty new to.
